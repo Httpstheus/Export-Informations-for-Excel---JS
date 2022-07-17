@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+:root{
+    --main-color: #FF6347;
+    --second-color: rgb(255, 255, 255);
+    --hover-color: #dd482d;
+}
+
+body{
+    margin: auto;
+    width: 50%;
+    height: 100vh;
+    font-family: 'Poppins', sans-serif;
+}
+
+header{
+    margin-top: 5rem;
+    display: flex;
+    justify-content: center;
+    background: var(--main-color);
+    color: aliceblue;
+    text-align: center;
+    border-top-right-radius: 0.6rem;
+    border-top-left-radius: 0.6rem;
+        font-weight: 300;
+}
+
+span{
+    color: var(--main-color);
+}
+
+header ul li{
+    list-style: none;
+}
+
+.box{
+ background: var(--second-color);
+ border-radius: 0.6rem;
+ box-shadow: 10px 9px 10px -4px rgba(71,71,71,0.8);
+}
+
+h4{
+    font-size: 1rem;
+    text-align: center;
+    margin: 0.5rem;
+    font-weight: 300;
+}
+
+section form ul li{
+    list-style: none;
+}
+
+section form ul li label{
+   font-size: 1rem; 
+}
+
+section form h3{
+    text-align: center;
+    font-weight: 500;
+}
+
+section{
+    margin-top: 1%;
+    display: flex;
+    justify-content: center;
+    font-size: medium;
+}
+
+section button{
+    margin: 0.5rem;
+    font-size: 1.rem;
+    background: var(--main-color);
+    border: none;
+    padding: 0.7rem;
+    border-radius: 0.6rem;
+    cursor: pointer;
+    color: var(--second-color);
+    text-transform: uppercase;
+}
+
+button:hover{
+    background: var(--hover-color);
+    transition: 0.35s;
+}
+
+table, th, td{
+    border: 0.1rem solid #dfdfdf;
+    border-collapse: collapse;
+    border-radius: 0.5rem;
+    font-size: 1rem;
+    padding: 0.3rem;
+    
+}
