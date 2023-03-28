@@ -1,6 +1,14 @@
-# Export-Informations-for-Excel---JS
-Hi! With this repository, you can generate a excel with informations :)
-PS: File Table To Excel is available on GitHub
+# Download da Web para Excel
 
+### :pizza: Template de pedidos para uma Pizzaria
 
-![Screenshot_6](https://user-images.githubusercontent.com/84551135/179397927-06664823-465a-4e1a-a960-5a2d19046337.png)
+> Ainda querio alterar esse repositório, adicionando dados na tabela e fazer o download com dados que foram incluidos na mesma
+
+```
+O projeto é dependente do arquivo tableToExcel.js
+```
+
+```
+$ git clone https://github.com/Httpstheus/Export-Informations-for-Excel---JS.git
+```
+
